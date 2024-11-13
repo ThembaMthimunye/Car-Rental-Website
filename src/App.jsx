@@ -4,7 +4,7 @@ import About from "./Components/About/About";
 import Services from "./Components/Services/Services";
 import CarList from "./Components/CarList/CarList";
 import Testimonial from "./Components/Testimonial/Testimonial";
-
+import "./index.css"
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -22,14 +22,16 @@ function App() {
   }, []);
 
   return (
-    <>
-      <Navbar />
+    < >
+        <Navbar />
       <Hero />
       <About/>
       <Services/>
       <CarList/>
       <Testimonial/>
     </>
+      
+    
   );
 }
 

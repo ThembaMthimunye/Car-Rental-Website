@@ -11,7 +11,7 @@ const skillsData = [
     ),
     link: "#",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatispariatur esse nemo delectus, fuga voluptas doloribus ",
+      "The K53 system helps ensure that drivers are prepared for the challenges of the road, focusing on not just passing the test but becoming a safe, skilled driver",
     aosDelay: "1000",
   },
 
@@ -22,7 +22,7 @@ const skillsData = [
     ),
     link: "#",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatispariatur esse nemo delectus, fuga voluptas doloribus ",
+      "The K53 system helps ensure that drivers are prepared for the challenges of the road, focusing on not just passing the test but becoming a safe, skilled driver",
     aosDelay: "2000",
   },
 
@@ -33,14 +33,14 @@ const skillsData = [
     ),
     link: "#",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatispariatur esse nemo delectus, fuga voluptas doloribus ",
+      "The K53 system helps ensure that drivers are prepared for the challenges of the road, focusing on not just passing the test but becoming a safe, skilled driver",
     aosDelay: "3000",
   },
 ];
 
 const Services = () => {
   return (
-    <div className="py-12 sm:min-h-[600px] sm:grid sm:place-items-center ">
+    <div className="py-12 sm:min-h-[600px] sm:grid sm:place-items-center bg-slate-500">
       <div className="container">
         <div className="pb-12">
           <h1 className="text-3xl font-bold font-serif text-center  sm:text-4xl">
@@ -53,12 +53,12 @@ const Services = () => {
               data-aos="fade-up"
               data-aos-duration={skill.aosDelay}
               key={skill.name}
-              className="card text-center group space-y-3 sm:space-y-6 p-4 sm:py-16 bg-dark hover:bg-primary text-white w-[20rem] mx-auto duration-300 hover:text-black rounded-md "
+              className="card text-center group space-y-10 sm:space-y-6 p-4 sm:py-16 bg-dark hover:bg-primary text-white w-[20rem] mx-auto duration-300 hover:text-black rounded-md "
             >
               <div className="m">{skill.icon}</div>
               <h1>{skill.name}</h1>
               <p className="text-start ">{skill.description}</p>
-              <a href={skill.link}>Learn More</a>
+              {/* <a className=" bg-slate-100 px-4 py-2 rounded-md " href={skill.link}>Enquire</a> */}
             </div>
           ))}
         </div>

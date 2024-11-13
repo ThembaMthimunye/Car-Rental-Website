@@ -16,15 +16,14 @@ const Hero = () => {
             />
           </div>
           <div 
-          className="order-2 sm:order-1 space-y-5 sm:pr-32">
+          className="order-2 sm:order-1 space-y-5 sm:pr-32 px-20">
             <p data-aos="fade-up"
                 data-aos-delay="500" className="text-primary text-2xl font-serif">Effortless</p>
             <h1  data-aos="fade-up"
-                data-aos-delay="1000"className="text-5xl font-semibold text-7xl font-serif ">Car Rental</h1>
+                data-aos-delay="1000"className="text-5xl font-semibold text-7xl font-serif ">Blue Island</h1>
             <p data-aos="fade-up"
                 data-aos-delay="1500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-              dolores quibusdam. 
+              Welcome to Blue Island Driving School, where your journey to becoming a skilled driver begins. 
             </p>
             <button data-aos="fade-up"
                 data-aos-delay="2000" className="bg-primary text-white hover:bg-primary/60 duration-300 hover:text-black  px-6 py-2 rounded-md">Get Started</button>
