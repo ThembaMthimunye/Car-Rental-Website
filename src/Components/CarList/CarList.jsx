@@ -67,7 +67,7 @@ const CarList = () => {
                       </div>
                     </div>
                     <p className="absolute top-3 font-bold text-primary bg-black rounded-xl px-3  py-1 hover:bg-primary hover:text-black">
-                      {" "}
+                      {/* {" "} */}
                       {list.km}
                     </p>
                   </div>
